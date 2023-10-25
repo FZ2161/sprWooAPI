@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: rgb(50, 50,50);
+
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 65% 35%;
+}
+#left{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+
+    
+}
+#right{
+    background-color: rgb(55, 55,55);
+    padding: 10px;
+}
+
+.divs{
+    padding: 5px;
+    background-color: rgb(70, 70,70);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#rdiv{
+    height: 300px;
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
